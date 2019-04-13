@@ -14,7 +14,6 @@ const LogoContainer = styled.div`
 
 const SiteTitle = styled.h1`
   margin: 6px 0 0;
-  color: #000;
 `
 
 const SubTitle = styled.span`
