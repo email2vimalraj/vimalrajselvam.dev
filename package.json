@@ -1,7 +1,7 @@
 {
   "name": "vimalrajselvamdev",
   "version": "1.0.0",
-  "description": "",
+  "description": "Blog for https://vimalrajselvam.dev",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
