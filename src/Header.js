@@ -20,27 +20,15 @@ const SubTitle = styled.span`
   margin: 0 0 10px;
 `
 
-const Nav = styled.div`
-  display: flex;
-  justify-content: space-between;
-`
-
-const NavItem = styled.span`
-  padding: 0 10px 0 10px;
-  color: #000;
-`
-
 function Header() {
   return (
     <HeaderContainer>
       <LogoContainer>
-        <SiteTitle>Vimalraj Selvam</SiteTitle>
+        <SiteTitle>
+          <a href="/">Vimalraj Selvam</a>
+        </SiteTitle>
         <SubTitle>Let's learn together</SubTitle>
       </LogoContainer>
-      <Nav>
-        <NavItem>Twitter</NavItem>
-        <NavItem>Github</NavItem>
-      </Nav>
     </HeaderContainer>
   )
 }

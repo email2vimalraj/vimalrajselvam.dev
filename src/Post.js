@@ -85,11 +85,11 @@ const LinkButton = styled.a`
   }
 `
 
-const PostExcerpt = styled.p`
+const PostContent = styled.p`
   margin-bottom: 25px;
 `
 
-function Content() {
+function Post() {
   return (
     <ContentContainer>
       <MainContent>
@@ -99,36 +99,62 @@ function Content() {
               Form in Modal using React hooks – mistakes and lesson learnt
             </a>
           </h1>
-          <PostExcerpt>
+          <PostContent>
             Recently, I’ve stumbled upon a problem while building a Form in the
             Modal box. I would like to share that experience and believe it
             might help. Modal and Portals I wanted to create a modal which can
             show some content or the form. The best way to create a modal in
             React is to use Portal. Because, the modal should
-          </PostExcerpt>
-          <LinkButton href="/post">Read more</LinkButton>
-        </Card>
-        <Card>
-          <h1>Form in Modal using React hooks – mistakes and lesson learnt</h1>
-          <PostExcerpt>
+          </PostContent>
+          <PostContent>
             Recently, I’ve stumbled upon a problem while building a Form in the
             Modal box. I would like to share that experience and believe it
             might help. Modal and Portals I wanted to create a modal which can
             show some content or the form. The best way to create a modal in
             React is to use Portal. Because, the modal should
-          </PostExcerpt>
-          <LinkButton href="/">Read more</LinkButton>
-        </Card>
-        <Card>
-          <h1>Form in Modal using React hooks – mistakes and lesson learnt</h1>
-          <PostExcerpt>
+          </PostContent>
+          <PostContent>
             Recently, I’ve stumbled upon a problem while building a Form in the
             Modal box. I would like to share that experience and believe it
             might help. Modal and Portals I wanted to create a modal which can
             show some content or the form. The best way to create a modal in
             React is to use Portal. Because, the modal should
-          </PostExcerpt>
-          <LinkButton href="/">Read more</LinkButton>
+          </PostContent>
+          <PostContent>
+            Recently, I’ve stumbled upon a problem while building a Form in the
+            Modal box. I would like to share that experience and believe it
+            might help. Modal and Portals I wanted to create a modal which can
+            show some content or the form. The best way to create a modal in
+            React is to use Portal. Because, the modal should
+          </PostContent>
+          <PostContent>
+            Recently, I’ve stumbled upon a problem while building a Form in the
+            Modal box. I would like to share that experience and believe it
+            might help. Modal and Portals I wanted to create a modal which can
+            show some content or the form. The best way to create a modal in
+            React is to use Portal. Because, the modal should
+          </PostContent>
+          <PostContent>
+            Recently, I’ve stumbled upon a problem while building a Form in the
+            Modal box. I would like to share that experience and believe it
+            might help. Modal and Portals I wanted to create a modal which can
+            show some content or the form. The best way to create a modal in
+            React is to use Portal. Because, the modal should
+          </PostContent>
+          <PostContent>
+            Recently, I’ve stumbled upon a problem while building a Form in the
+            Modal box. I would like to share that experience and believe it
+            might help. Modal and Portals I wanted to create a modal which can
+            show some content or the form. The best way to create a modal in
+            React is to use Portal. Because, the modal should
+          </PostContent>
+          <PostContent>
+            Recently, I’ve stumbled upon a problem while building a Form in the
+            Modal box. I would like to share that experience and believe it
+            might help. Modal and Portals I wanted to create a modal which can
+            show some content or the form. The best way to create a modal in
+            React is to use Portal. Because, the modal should
+          </PostContent>
         </Card>
       </MainContent>
       <Aside>
@@ -170,4 +196,4 @@ function Content() {
   )
 }
 
-export default Content
+export default Post
